@@ -13,7 +13,7 @@ const Hero = () => {
         <div className="absolute inset-0 flex flex-col gap-6 items-center justify-center overflow-hidden">
           <p className="text-white text-5xl text-center w-92">
             Elevate everyday moments to extraordinary.
-          </p>    
+          </p>   
           <Link to='shop' className='rounded-full text-xs sm:text-sm font-semibold text-center bg-white text-black py-2 px-10'>
             <Button text={'SHOP OUR FRAGRANCES'} />
           </Link>
