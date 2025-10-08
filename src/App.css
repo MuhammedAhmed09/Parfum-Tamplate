@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+
+@theme {
+  --color-Light-Pink: oklch(0.966 0.041 7.6);
+  --color-Orange: oklch(0.778 0.189 72.8);
+  --color-Green: oklch(0.705 0.138 107.2);
+  --color-Red: oklch(0.648 0.223 35.4);
+}
+
+@layer base {
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
