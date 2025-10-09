@@ -3,7 +3,7 @@ import FeaturedImage2 from '../../homeSections/FeaturedImage2'
 import FeaturedLogos from '../../homeSections/FeaturedLogos'
 import Hero from '../../homeSections/Hero'
 import Marquee from '../../homeSections/Marquee'
-import Testimonial from '../../homeSections/Testimonial'
+import Tesimonial from '../../homeSections/Tesimonial'
 
 const Home = () => {
   return (
@@ -13,7 +13,7 @@ const Home = () => {
       <FeaturedImage />
       <Marquee />
       <FeaturedImage2 />
-      <Testimonial />
+      <Tesimonial />
     </div>
   )
 }

@@ -45,21 +45,21 @@ const Footer = () => {
             <div className="flex flex-col gap-2">
               <h3 className="text-xl mb-2">Company</h3>
               {companyLinks.map((cLink) => (
-                <Link to={cLink.path} className="text-sm">{cLink.title}</Link>
+                <Link key={cLink.id} to={cLink.path} className="text-sm">{cLink.title}</Link>
               ))}
             </div>
 
             <div className="flex flex-col gap-2">
               <h3 className="text-xl mb-2">Social</h3>
-              {socialLinks.map((cLink) => (
-                <a path={cLink.path} className="text-sm cursor-pointer">{cLink.title}</a>
+              {socialLinks.map((sLink) => (
+                <a key={sLink.id} path={sLink.path} className="text-sm cursor-pointer">{sLink.title}</a>
               ))}
             </div>
             
             <div className="flex flex-col gap-2">
               <h3 className="text-xl mb-2">Template</h3>
-              {templateLinks.map((cLink) => (
-                <a path={cLink.path} className="text-sm cursor-pointer">{cLink.title}</a>
+              {templateLinks.map((dLink) => (
+                <a key={dLink.id} path={dLink.path} className="text-sm cursor-pointer">{dLink.title}</a>
               ))}
             </div>
           </div>

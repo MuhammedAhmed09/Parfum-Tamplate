@@ -25,3 +25,13 @@
   animation: marquee 15s linear infinite;
   white-space: nowrap;
 }
+
+/* This targets Swiper pagination bullets */
+.custom-swiper-pagination .swiper-pagination-bullet {
+  background-color: black !important;
+  opacity: 1;
+}
+
+.custom-swiper-pagination .swiper-pagination-bullet-active {
+  background-color: black !important;
+}
