@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Button from "../../components/Button"
+import Button from "../../homeSections/Button"
 import { GiVanillaFlower } from "react-icons/gi";
 
 const Footer = () => {
@@ -31,9 +31,9 @@ const Footer = () => {
         <div className="flex flex-col gap-4 md:flex-row justify-between md:gap-x-12">
           {/* LEFT */}
           <div className="flex flex-col gap-3">
-            <p className="text-3xl"><GiVanillaFlower /></p>
+            <img src="image/white-flower-icon.png" alt="flower" className="w-8" />
             <p>We send <i className="font-semibold">great</i> emails.</p>
-            <div className="flex gap-2">
+            <div className="flex flex-col sm:flex-row gap-2">
               <input type="text" placeholder="Enter your email" className="outline-none rounded-full px-4 py-1 bg-white/0 border border-white text-sm font-semibold" />
               <a href="#" className="rounded-full flex justify-center py-1 px-4 text-black bg-white font-semibold text-sm">              
                 <Button text={'SUBSCRIBE'} />

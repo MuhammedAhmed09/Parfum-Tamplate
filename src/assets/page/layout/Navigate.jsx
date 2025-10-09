@@ -7,8 +7,8 @@ const Navigate = () => {
   const { isOpen } = useContext(AnnounceContext);
   
   return (
-    <div className={`w-full fixed z-40 my-4 ${isOpen && ('top-8')}`}>
-      <div className='flex justify-between bg-white text-center items-center rounded-full px-6 py-2 mx-[7%]'>
+    <div className={`w-full fixed z-40 ${isOpen && ('top-8')}`}>
+      <div className='flex justify-between my-4 bg-white text-center items-center rounded-full px-6 py-2 mx-[7%]'>
         <div className='flex gap-8'>
           <Link to='shop' className='text-sm font-semibold lg:text-base'>Shop</Link>
           <Link to='about' className='text-sm font-semibold lg:text-base'>About</Link>
