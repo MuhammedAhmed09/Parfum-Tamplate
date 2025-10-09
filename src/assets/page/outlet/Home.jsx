@@ -1,4 +1,4 @@
-import FeaturedImage from '../../homeSections/featuredImage'
+import FeaturedImage from '../../homeSections/FeaturedImage'
 import FeaturedImage2 from '../../homeSections/FeaturedImage2'
 import FeaturedLogos from '../../homeSections/FeaturedLogos'
 import Hero from '../../homeSections/Hero'
