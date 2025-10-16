@@ -11,6 +11,8 @@ import Contact from './assets/page/outlet/Contact'
 import Cart from './assets/page/outlet/Cart'
 import NotFound from './assets/page/NotFound'
 import AnnounceProvider from './assets/context/AnnounceIsOpen'
+import GetProductsProvider from './assets/context/ProductsAPI'
+import Product from './assets/page/outlet/Product'
 
 
 const Layout = () => {
@@ -31,6 +33,7 @@ function App() {
       <Route path='/' element={<Layout />} >
         <Route index element={<Home />} />
         <Route path='shop' element={<Shop />} />
+        <Route path='product/:id' element={<Product />} />
         <Route path='about' element={<About />} />
         <Route path='blog' element={<Blog />} />
         <Route path='contact' element={<Contact />} />
@@ -42,7 +45,9 @@ function App() {
 
   return(
     <AnnounceProvider>
-      <RouterProvider router={router} />
+      <GetProductsProvider>
+        <RouterProvider router={router} />
+      </GetProductsProvider>
     </AnnounceProvider>
   )
   

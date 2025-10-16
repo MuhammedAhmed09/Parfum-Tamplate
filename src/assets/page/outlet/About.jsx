@@ -5,7 +5,7 @@ import FAQ from "../../aboutSections/FAQ"
 
 const About = () => {
   return (
-    <section className="bg-Light-Pink flex flex-col gap-8">
+    <section className="bg-Light-Pink flex flex-col gap-y-8">
       <Hero />
       <Features />
       <FeaturedImage />

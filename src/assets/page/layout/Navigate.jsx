@@ -14,7 +14,7 @@ const Navigate = () => {
           <Link to='about' className='text-sm font-semibold lg:text-base'>About</Link>
         </div>
         <Link to='/' className='text-lg sm:text-xl md:text-2xl font-bold'>
-          <img src="/image/black-logo.png" alt="PURFUM" className='w-20' />
+          <img src="/image/black-logo.png" alt="PURFUM" className='w-24' />
         </Link>
         <div className='flex gap-8'>
           <Link to='blog' className='text-sm font-semibold lg:text-base'>Blog</Link>

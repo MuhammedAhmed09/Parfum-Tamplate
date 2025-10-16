@@ -3,7 +3,7 @@ import Button from "../homeSections/Button"
 const Hero = () => {
   return (
     <div className='relative w-full flex justify-center items-center'>
-      <img src="/image/about-banner.png" alt="flower about benner" />
+      <img src="/image/about-banner.png" alt="flower about benner" className="w-full object-contain"/>
       <div className="absolute flex flex-col gap-6 items-center justify-center overflow-hidden text-white ">
         <p className="text-3xl sm:text-4xl md:text-5xl text-center w-92 ">
           Our guiding <br /> principles.
