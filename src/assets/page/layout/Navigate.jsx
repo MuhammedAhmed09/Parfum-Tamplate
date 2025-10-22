@@ -13,12 +13,13 @@ const Navigate = () => {
           <Link to='shop' className='text-sm font-semibold lg:text-base'>Shop</Link>
           <Link to='about' className='text-sm font-semibold lg:text-base'>About</Link>
         </div>
-        <Link to='/' className='text-lg sm:text-xl md:text-2xl font-bold'>
-          <img src="/image/black-logo.png" alt="PURFUM" className='w-24' />
+        <Link to='/' className='text-lg sm:text-xl md:text-2xl font-bold relative'>
+          <img src="/image/black-flower-icon.png" alt="flower-icon" className='w-6 sm:hidden' />
+          <img src="/image/black-logo.png" alt="PURFUM" className='sm:w-24 hidden sm:block' />
         </Link>
         <div className='flex gap-8'>
           <Link to='blog' className='text-sm font-semibold lg:text-base'>Blog</Link>
-          <Link to='contact' className='text-sm font-semibold lg:text-base'>Contact</Link>
+          <Link to='contact' className='text-sm font-semibold gap-x-8 lg:text-base'>Contact</Link>
           <Link to='cart' className='text-sm font-semibold lg:text-base self-center'><LiaShoppingBagSolid /></Link>
         </div>
       </div>

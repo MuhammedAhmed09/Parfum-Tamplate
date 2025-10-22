@@ -13,6 +13,7 @@ import NotFound from './assets/page/NotFound'
 import AnnounceProvider from './assets/context/AnnounceIsOpen'
 import GetProductsProvider from './assets/context/ProductsAPI'
 import Product from './assets/page/outlet/Product'
+import ProductsProvider from './assets/context/CartProducts'
 
 
 const Layout = () => {
@@ -46,7 +47,9 @@ function App() {
   return(
     <AnnounceProvider>
       <GetProductsProvider>
-        <RouterProvider router={router} />
+        <ProductsProvider>
+          <RouterProvider router={router} />
+        </ProductsProvider>
       </GetProductsProvider>
     </AnnounceProvider>
   )
